@@ -82,3 +82,4 @@ def calculate(list):
         "min": [min_columns, min_rows, float(float_ls.min().item())],
         "sum": [sum_columns, sum_rows, float(float_ls.sum().item())],
     }
+print(calculate([2, 6, 2, 8, 4, 0, 1, 5, 7]))
